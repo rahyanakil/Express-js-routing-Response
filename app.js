@@ -14,7 +14,8 @@ const limiter =rateLimit({
     windowMs:REQUEST_LIMIT_TIME,
     max:REQUEST_LIMIT_NUMBER,
 })
-
+app.use(helmet())
+app.use(hpp())
 app.use(limiter);
 app.use("/api",router);
 
