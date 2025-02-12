@@ -1,6 +1,6 @@
 import express from "express";
 import *as taskController from"../controllers/taskController.js"
-import { PORT } from "../config/config";
+import { PORT } from "../config/config.js";
 const router =express.Router();
 
 
