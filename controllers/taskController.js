@@ -34,6 +34,7 @@ export const demo5 = async(req,res)=>{
 }
 
 //how to work with middle wire
+// http://localhost:5050/api/demo6
 export const demo6 =async(req,res)=>{
-    return res.json()
+    return res.json({name:"hello"})
 }
